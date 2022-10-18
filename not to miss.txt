@@ -1,0 +1,5 @@
+escuela: clases, club, travesias, eventos, viajes
+guarderia: instalaciones, beneficios
+store: productos, accesorios, descuentos y beneficios
+contacto
+redes
