@@ -1,0 +1,39 @@
+* {
+    line-height: normal;
+    width: 100%;
+    list-style: none;
+    font-size: medium;
+    font-family: font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(to right, rgb(236, 98, 185) to white);
+}
+
+.navmenu { 
+    font-family: font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    color: black
+    display: inline;
+    background
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(228, 72, 179);
+    font-family: font-family: 'Bebas Neue', cursive;
+    border: solid, 1px;
+    
+}
+
+
+h2 {
+    text-align: center;
+    color: black;
+    background-color: rgb(228, 72, 179);
+    font-family: font-family: 'Bebas Neue', cursive;
+    border: solid, 1px;
+    
+}
