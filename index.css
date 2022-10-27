@@ -3,27 +3,53 @@
     width: 100%;
     list-style: none;
     font-size: medium;
-    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-decoration: none;
 }
-
-body{
-    background: linear-gradient(to right, rgb(236, 98, 185) to white);
+html {
+    height: 100%;
 }
 
-.navmenu { 
-    font-family: font-family: 'Bebas Neue', cursive;
+body {
+    background-image: url(/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    height: 25%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.navmenu li a {  
+    font-family:'Bebas Neue';
     font-size: larger;
-    color: black
+    color: black;
+    background-color:rgb(218, 20, 129);
     display: inline;
-    background
+    display: flex;
+    justify-content: center;
+}
+
+.navbox {
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(218, 20, 129);
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+    font-weight: bold;
 }
 
 h1 {
     text-align: center;
     color: black;
-    background-color: rgb(228, 72, 179);
-    font-family: font-family: 'Bebas Neue', cursive;
+    background-color: rgb(76, 190, 158);
+    font-family:'Bebas Neue';
     border: solid, 1px;
     
 }
@@ -32,8 +58,36 @@ h1 {
 h2 {
     text-align: center;
     color: black;
-    background-color: rgb(228, 72, 179);
-    font-family: font-family: 'Bebas Neue', cursive;
+    background-color: rgb(239, 157, 69);
+    font-family: 'Bebas Neue'
     border: solid, 1px;
-    
+}
+
+.imagenes1 {
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(218, 20, 129);
+    border: solid color black;
+    padding: 10px;
+}
+
+.video1 {
+    margin: 10px, 10px, 10px, 10px;
+    background-color: rgb(218, 20, 129);
+    border: solid, 2px, color rgb(218, 20, 129);
+    display: flex;
+    justify-content: center;
+}
+
+.footer li a {
+    font-family:'Bebas Neue';
+    font-size: larger;
+    color: black;
+    background-color:rgb(218, 20, 129);
+    display: flex;
+    justify-content: center;
+}
+
+.footerbox {
+    background-color:rgb(218, 20, 129);
 }

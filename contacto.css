@@ -1,0 +1,56 @@
+* {
+    line-height: normal;
+    width: 100%;
+    list-style: none;
+    font-size: medium;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(76, 190, 158);
+    font-family:'Bebas Neue';
+    border: solid, 1px;
+    font-size: xx-large;  
+}
+
+
+h2 {
+    text-align: center;
+    color: black;
+    background-color: rgb(239, 157, 69);
+    font-family: 'Bebas Neue';
+    border: solid, 1px;
+    font-size: x-large;
+}
+
+.datos1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.mapa {
+    height:500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+} 
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(76, 190, 158);
+}
