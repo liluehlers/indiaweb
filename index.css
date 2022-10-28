@@ -16,8 +16,16 @@ body {
     background-size: cover;
 }
 .logo {
-    height: 25%;
-    width: 30%;
+   margin: 0 auto;
+   height: 25%;
+   width: 50%;
+}
+
+.logo img {
+  
+}
+
+.navmenu  {
     display: flex;
     justify-content: center;
 }
@@ -71,23 +79,32 @@ h2 {
     padding: 10px;
 }
 
-.video1 {
-    margin: 10px, 10px, 10px, 10px;
+.video1 iframe {
+    margin: 0 auto;
     background-color: rgb(218, 20, 129);
     border: solid, 2px, color rgb(218, 20, 129);
     display: flex;
     justify-content: center;
+    width: 40%;
 }
 
-.footer li a {
+
+/* .footer {
     font-family:'Bebas Neue';
     font-size: larger;
     color: black;
     background-color:rgb(218, 20, 129);
     display: flex;
     justify-content: center;
+} */
+
+.footerbox ul {
+    background-color:rgb(218, 20, 129);
+    display: flex;
+    justify-content: center;
 }
 
-.footerbox {
-    background-color:rgb(218, 20, 129);
+.footerbox ul li a {
+    font-family: 'Bebas Neue';
+    font-size: larger;
 }
