@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-image: url(/fondo.png);
+    background-image: url(/images/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,18 +39,18 @@ h2 {
 .datos1 {
     font-family: 'Montserrat';
     font-weight: bold;
+    display: flex;
+    justify-items: center;
 }
 
 .mapa {
     height:500px;
     width: 500px;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 } 
 
 .formulario {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
     width: 50%;
     background-color: rgb(76, 190, 158);
 }
