@@ -79,6 +79,11 @@ h2 {
     padding: 10px;
 }
 
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
 .video1 iframe {
     margin: 0 auto;
     background-color: rgb(218, 20, 129);
